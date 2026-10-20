@@ -1,5 +1,5 @@
 // Paste the deployed Google Apps Script Web App /exec URL below in this file and admin.js.
-const API_URL = "https://script.google.com/macros/s/AKfycbwlRidYpdTsLN4AqmrVtVpsCB9XAMHhNCH8s0RDrBvPxzU_87dsyWmYLPAog7Wp4l44/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbyo6rd2jgkmaN95fsVpHAWl7Q_9WrOaXcirrzoFnCSMWPzOkm917qG-tTacBrbQIhCS/exec";
 const form = document.getElementById("requestForm");
 const statusEl = document.getElementById("formStatus");
 const startedAt = Date.now();
