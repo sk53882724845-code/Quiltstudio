@@ -1,5 +1,5 @@
 // Keep this URL public; never put the admin password in this file.
-const API_URL = "PASTE_YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE";
+const API_URL = "https://script.google.com/macros/s/AKfycbyo6rd2jgkmaN95fsVpHAWl7Q_9WrOaXcirrzoFnCSMWPzOkm917qG-tTacBrbQIhCS/exec";
 const loginForm = document.getElementById("adminLogin"), statusEl = document.getElementById("adminStatus");
 const requestsSection = document.getElementById("requestsSection"), requestsList = document.getElementById("requestsList");
 let adminPassword = "";
