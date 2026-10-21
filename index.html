@@ -10,3 +10,55 @@
 <section class="section process" id="how"><div class="eyebrow">A SIMPLE PROCESS</div><h2>From idea to online.</h2><div class="steps"><div><span>01</span><h3>Send a request</h3><p>Choose a package and tell us how to contact you.</p></div><div><span>02</span><h3>Confirm details</h3><p>We agree on pages, price, edits and delivery date.</p></div><div><span>03</span><h3>Build & review</h3><p>Review the website and request included edits.</p></div></div></section>
 <section class="section order-section" id="order"><div><div class="eyebrow">LET’S BUILD SOMETHING</div><h2>Request your website.</h2><p class="muted">Submit a request for review. This is not an automatic purchase or payment.</p><div class="privacy-note">🔒 Your details are used to respond to your request. Never submit passwords or payment details.</div></div><form id="requestForm" class="form"><label for="name">Name *</label><input id="name" name="name" required maxlength="80" placeholder="Your name"><label for="age">Age *</label><input id="age" name="age" type="number" min="13" max="120" required placeholder="Your age"><label for="package">Package *</label><select id="package" name="package" required><option value="">Choose a package</option><option>Basic</option><option>Professional</option><option>Premium</option></select><label for="email">Email *</label><input id="email" name="email" type="email" required maxlength="160" placeholder="you@example.com"><div class="check"><input id="humanCheck" type="checkbox" required><label for="humanCheck">I confirm this is a genuine request.</label></div><div class="trap"><label for="website">Leave empty</label><input id="website" name="website" tabindex="-1" autocomplete="off"></div><button class="button primary full" type="submit">Send request ↗</button><p id="formStatus" class="status" role="status" aria-live="polite"></p><p class="fineprint">The checkbox is a basic confirmation, not a full CAPTCHA. See README for stronger bot protection.</p></form></section></main>
 <footer><a class="brand" href="#"><span class="mark">Q</span> QUILT <b>STUDIO</b></a><span>© <span id="year"></span> Quilt Studio</span></footer><script src="script.js"></script></body></html>
+<!-- Quilt Studio Footer -->
+<footer style="background:#0b0b10;color:#fff;text-align:center;padding:30px 15px;margin-top:40px;border-top:1px solid #292536;font-family:Arial,sans-serif;">
+
+  <h2 style="color:#c4a7ff;margin-bottom:10px;">
+    Quilt Studio
+  </h2>
+
+  <p>Creative Websites &amp; Digital Solutions</p>
+
+  <div style="margin:20px 0;line-height:2.5;">
+
+    <a href="https://QuiltClient.dpdns.org/"
+       style="color:#c4a7ff;margin:8px;text-decoration:none;">
+      Home
+    </a>
+
+    <a href="https://QuiltClient.dpdns.org/terms-and-conditions.html"
+       style="color:#c4a7ff;margin:8px;text-decoration:none;">
+      Terms &amp; Conditions
+    </a>
+
+    <a href="https://QuiltClient.dpdns.org/privacy-policy.html"
+       style="color:#c4a7ff;margin:8px;text-decoration:none;">
+      Privacy Policy
+    </a>
+
+    <a href="https://QuiltClient.dpdns.org/disclaimer.html"
+       style="color:#c4a7ff;margin:8px;text-decoration:none;">
+      Disclaimer
+    </a>
+
+  </div>
+
+  <p>
+    Contact:
+    <a href="mailto:quiltclient@zohomail.in"
+       style="color:#c4a7ff;">
+      quiltclient@zohomail.in
+    </a>
+  </p>
+
+  <p style="font-size:13px;color:#aaa;margin-top:20px;">
+    &copy; <span id="quilt-year"></span> Quilt Studio. All rights reserved.
+  </p>
+
+</footer>
+
+<script>
+document.getElementById("quilt-year").textContent =
+  new Date().getFullYear();
+</script>
+<!-- End Quilt Studio Footer -->
